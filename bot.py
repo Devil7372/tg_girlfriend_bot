@@ -14,7 +14,7 @@ from telegram.ext import (
 # ================== CONFIG ==================
 
 TELEGRAM_BOT_TOKEN = os.getenv("8299828842:AAGqY99mqVtRuhlDNOlNQ8XAl7N6obq0I48")
-OPENAI_API_KEY = os.getenv("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")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Your Telegram user id (for /broadcast & force-sub commands)
 ADMIN_ID = 7057341064  # <-- CHANGE THIS TO YOUR TELEGRAM ID
